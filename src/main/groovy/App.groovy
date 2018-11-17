@@ -1,19 +1,13 @@
-/*
- * Very simple HTTP server using http://sparkjava.com/
- *
- * Start the server with "groovy server.groovy".
- */
+// package codes.orel
 
-package codes.orel
-
-@Grab( group = 'com.sparkjava', module = 'spark-core', version = '2.1' )
+// @Grab( group = 'com.sparkjava', module = 'spark-core', version = '2.1' )
 import static spark.Spark.*
 import groovy.json.JsonSlurper
 import groovy.json.JsonOutput
 import java.security.MessageDigest
 import java.text.SimpleDateFormat
 
-import codes.orel.AppResponse
+// import codes.orel.AppResponse
 
 public class App {
 
