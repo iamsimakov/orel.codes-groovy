@@ -7,3 +7,4 @@ request = function()
     path = "/"
     wrk.body   = '{"id": "' .. tostring(math.random()) .. '", "first_name": "Rand Name ' .. tostring(math.random()) .. '", "last_name": "Rand Last Name ' .. tostring(math.random()) .. '"}'
     return wrk.format("POST", path)
+end
